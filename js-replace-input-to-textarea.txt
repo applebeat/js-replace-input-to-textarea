@@ -1,0 +1,6 @@
+<script type="text/javascript">
+jQuery(function(){
+var entrytitle = jQuery("#title").val();
+jQuery("#title-field .field-content input#title").replaceWith('<textarea style="width:100%;height:100px;">' + entrytitle + '</textarea>');
+});
+</script>
