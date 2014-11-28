@@ -1,6 +1,6 @@
 <script type="text/javascript">
 jQuery(function(){
-var entrytitle = jQuery("#title").val();
-jQuery("#title-field .field-content input#title").replaceWith('<textarea style="width:100%;height:100px;" name="title" id="title" class="title text full first-child last-child" placeholder="タイトル" mt:watch-change="1">' + entrytitle + '</textarea>');
+var entrytitle = jQuery("#edit-entry #title").val();
+jQuery("#edit-entry #title-field .field-content input#title").replaceWith('<textarea style="width:100%;height:100px;" name="title" id="title" class="title text full first-child last-child" placeholder="タイトル" mt:watch-change="1">' + entrytitle + '</textarea>');
 });
 </script>
